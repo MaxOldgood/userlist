@@ -14,15 +14,15 @@ if (container) {
 
   const router = createBrowserRouter([
     {
-      path: "/userlist/users/",
+      path: "/users/",
       element: <App />,
       children: [
         {
-          path: "/userlist/users/",
+          path: "/users/",
           element: <Home />,
         },
         {
-          path: "userlist/users/:userId/",
+          path: "users/:userId/",
           element: <UserPage />,
         },
       ],
