@@ -22,7 +22,7 @@ if (container) {
           element: <Home />,
         },
         {
-          path: "users/:userId/",
+          path: "/users/:userId/",
           element: <UserPage />,
         },
       ],
