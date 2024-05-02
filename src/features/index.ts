@@ -1,5 +1,5 @@
-export { TEXT_INPUT_FIELDS } from "./addUserForm/model/textInputFields";
-export { basicSchema } from "./addUserForm/model/schemas";
+export { TEXT_INPUT_FIELDS } from "./userForm/model/textInputFields";
+export { basicSchema } from "./userForm/model/schemas";
 
-export { FormAvatar } from "./addUserForm/ui/formAvatar";
-export { UserForm } from "./addUserForm/ui/userForm";
+export { FormAvatar } from "./userForm/ui/formAvatar";
+export { UserForm } from "./userForm/ui/userForm";

@@ -13,7 +13,7 @@ import { DEFAULT_AVATAR_URL } from "../../entities/user/model/initialUsers";
 import { Button } from "../../shared/ui";
 import { FormAvatar } from "../../features";
 import { Gallery } from "../gallery";
-import { FormValues, UserForm } from "../../features/addUserForm/ui/userForm";
+import { FormValues, UserForm } from "../../features/userForm/ui/userForm";
 
 const EMAIL_ALREADY_TAKEN_MSG = "Выбранная почта уже используется";
 const DATE_FORMAT = "DD.MM.YY HH:mm:ss";
